@@ -83,3 +83,60 @@ a.control_next {
   width: 160px;
   font-size: 18px;
 }
+
+@media (max-width: 640px) {
+  body{
+    width:100%;
+  }
+  .logo{
+    width:100%
+  }
+  .top-nav{
+    width:100%;
+  }
+  .logo img{
+  height:23%;
+  width:100%;
+}
+  #tfheader{
+    display:none;
+  }
+  .top-nav{
+    top:23%;
+    padding-bottom:10px;
+  }
+
+  .item{
+    height:30px;
+    font-size:0.8em;
+  }
+  .item a{
+    padding-top:10px;
+        flex-basis:25%;
+  }
+  .item1{
+    min-width:25%;
+        flex-basis:25%;
+  }
+  .item2{
+    min-width:25%;
+        flex-basis:25%;
+  }
+  .item3{
+    min-width:25%;
+        flex-basis:25%;
+  }
+  .item4{
+    min-width:25%;
+        flex-basis:25%;
+  }
+  .item5{
+    min-width:50%;
+        flex-basis:50%;
+  }
+  .item6{
+    min-width:50%;
+        flex-basis:50%;
+  }
+}
+

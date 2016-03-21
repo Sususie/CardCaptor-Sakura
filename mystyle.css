@@ -144,21 +144,27 @@ body{
 }
 .item1 {
     min-width:12%;
+    flex-basis:12%;
 }
 .item2 {
     min-width:17%;
+    flex-basis:17%;
 }
 .item3 {
     min-width:13%;
+    flex-basis:13%;
 }
 .item4 {
     min-width:13%;
+    flex-basis:13%;
 }
 .item5 {
     min-width:20%;
+    flex-basis:20%;
 }
 .item6 {
     min-width:25%;
+    flex-basis:25%;
 }
 
 * {
@@ -296,21 +302,27 @@ div.desc {
 	}
 	.item1{
 		min-width:25%;
+        flex-basis:25%;
 	}
 	.item2{
 		min-width:25%;
+        flex-basis:25%;
 	}
 	.item3{
 		min-width:25%;
+        flex-basis:25%;
 	}
 	.item4{
 		min-width:25%;
+        flex-basis:25%;
 	}
 	.item5{
 		min-width:50%;
+        flex-basis:50%;
 	}
 	.item6{
 		min-width:50%;
+        flex-basis:50%;
 	}
 }
 
