@@ -1,55 +1,58 @@
-<!DOCTYPE html>
 <html>
-	<head>    
-	   	<link rel="stylesheet" href= "news.css">
-	   	
-	    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-	    <script type="text/javascript" src="http://w2ui.com/src/w2ui-1.4.2.min.js"></script>
-	    <meta charset="utf-8">
-		<meta name="description" content="">
-		<meta name="viewport" content="width=device-width,initial-scale=1">
-		<title>CCS News</title>
-	</head>
-	<body>
-		<div class="page">
-				<div class="logo">
-					<img style="height:23%"
-						src="img/logo.png"
-						alt="Cardcaptor Sakura"
-						title="logo"
-						width="50%" height="23%"
-						/>
-				</div>
-			<div id="tfheader">
-				<form id="tfnewsearch" method="get" action="http://www.google.com">
-				<input type="text" class="tftextinput" name="q" size="21" maxlength="120">
-				<input type="submit" value="search" class="tfbutton">
-				</form>
-			<div class="tfclear"></div>
-			</div>
-			<div class="top-nav">
-			<div class="item item1">
-				<a href="home.html">Home</a>
-			</div>
-			<div class="item item2">
-				<a href="Anime.html">TV Series</a>
-			</div>
-			<div class="item item3">
-				<a href="Movie.html">Movie</a>
-			</div>
-			<div class="item item4">
-				<a href="Manga.html">Manga</a>
-			</div>
-			<div class="item item5">
-				<a class="active" href="News.html">Latest News</a>
-			</div>
-			<div class="item item6">
-				<li><a href="Derivative.html">Related Product</a></li>
-			</div>	
-			</div>
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" href="stylesheets/styles.css">
+	<link rel="stylesheet" href="stylesheets/custom.css">
+  	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+	<script type="text/javascript" src="http://w2ui.com/src/w2ui-1.4.2.min.js"></script>
+	<title>
+		Cardcaptor Sakura
+	</title>	
+</head>
+<body>
+	<div class="page">	
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container-fluid">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a class="navbar-brand" href="#">CardCaptor Sakura</a>
+		    </div>
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav">
+	        <li><a href="CCS.html">Home</a></li>
+	        <li><a href="tv.html">TV Series</a></li>
+	        <li><a href="movie.html">Movie</a></li>
+	        <li><a href="manga.html">Manga</a></li>
+	        <li class="active">
+	          <a href="news.html">News<span class="sr-only">(current)</span></a>
+	        </li>
+	        <li><a href="derivative.html">Derivative Works</a></li>
+	        
+	    </ul>
+	    	<form class="navbar-form navbar-left" role="search">
+	        <div class="form-group">
+	          <input type="text" class="form-control" placeholder="Search">
+	        </div>
+	        <button type="submit" class="btn btn-default">Submit</button>
+	      	</form>
+		</div>
+	</div>
+	</nav>
+	<div class = "container">
+		<br><br><br><br>
 			<div class="row">
-				<div class="col-1"></div>
-				<div class="col-10">
+				<div class="col-xs-2"></div>
+				<div class="col-xs-10">
 				<ul class="news">
 	    			<li>
 						<a href="#" onclick="$('#popup1').w2popup()">figFIX Sakura Kinomoto: Battle Costume ver.   </a>
@@ -128,7 +131,7 @@
 			
 		
 		<nav class="bottom-nav">
-				<a href = "home.html">
+				<a href = "ccs.html">
 					HOME
 				</a>
 		</nav>

@@ -10,6 +10,7 @@ aside img {
 	height:auto;
 }
 .logo{
+	display:block;
 	top:0;
 	position:fixed;
 	background-color: #FFCCCC;
@@ -37,7 +38,6 @@ aside img {
 		width:70%;
 		margin: 0;
 		padding: 5px 10px;
-		font-family: Arial, Helvetica, sans-serif;
 		font-size:14px;
 		border:1px solid #663366; border-right:0px;
 		border-top-left-radius: 5px 5px;
@@ -47,7 +47,6 @@ aside img {
 		float:right;
 		margin: 0;
 		padding: 5px 15px;
-		font-family: Arial, Helvetica, sans-serif;
 		font-size:14px;
 		outline: none;
 		cursor: pointer;
@@ -85,6 +84,7 @@ body{
 
 }
 .top-nav{
+	display:block;
 	position:fixed;
 	top:23%;
     display:flex;
@@ -116,7 +116,6 @@ body{
     margin-top:72px;
     font-size: 1em;
     text-align:center;
-    font-family: 'Comfortaa',cursive, sans-serif;
     list-style-type: none;
     margin: 0;
     padding: 0;

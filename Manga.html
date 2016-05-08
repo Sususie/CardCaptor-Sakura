@@ -1,68 +1,72 @@
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="description" content="">
-		<meta name="viewport" content="width=device-width,initial-scale=1">
-		<link rel="stylesheet" href= "mystyle.css">
-		<title>
-			CCS Manga
-		</title>	
-	</head>
-	<body>
-		<div class="page">
-			<div class="logo">
-				<img 
-					src="img/logo.png"
-					alt="Cardcaptor Sakura"
-					title="logo"
-					width="50%" height="23%"
-					/>
-			</div>
-			<div id="tfheader">
-			<form id="tfnewsearch" method="get" action="http://www.google.com">
-			<input type="text" class="tftextinput" name="q" size="21" maxlength="120">
-			<input type="submit" value="search" class="tfbutton">
-			</form>
-		<div class="tfclear"></div>
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" href="stylesheets/styles.css">
+	<link rel="stylesheet" href="stylesheets/custom.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<title>
+		Cardcaptor Sakura
+	</title>	
+</head>
+<body>
+	<div class="page">	
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container-fluid">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a class="navbar-brand" href="#">CardCaptor Sakura</a>
+		    </div>
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav">
+	        <li><a href="CCS.html">Home</a></li>
+	        <li><a href="tv.html">TV Series</a></li>
+	        <li><a href="movie.html">Movie</a></li>
+	        <li class="active">
+	          <a href="manga.html">Manga<span class="sr-only">(current)</span></a>
+	        </li>	        
+	        <li><a href="news.html">News</a></li>
+	        <li><a href="derivative.html">Derivative Works</a></li>
+	    </ul>
+	    	<form class="navbar-form navbar-left" role="search">
+	        <div class="form-group">
+	          <input type="text" class="form-control" placeholder="Search">
+	        </div>
+	        <button type="submit" class="btn btn-default">Submit</button>
+	      	</form>
 		</div>
+	</div>
+	</nav>
 
-			<div class="top-nav">
-			<div class="item item1">
-				<a href="home.html">Home</a>
-			</div>
-			<div class="item item2">
-				<a href="Anime.html">TV Series</a>
-			</div>
-			<div class="item item3">
-				<a href="Movie.html">Movie</a>
-			</div>
-			<div class="item item4">
-				<a class="active" href="Manga.html">Manga</a>
-			</div>
-			<div class="item item5">
-				<a href="News.html">Latest News</a>
-			</div>
-			<div class="item item6">
-				<li><a href="Derivative.html">Related Product</a></li>
-			</div>	
-		</div>	
-
-			<div class = "row">
-				<div class="col-12">
+			<div class="container">
+		<br><br><br><br>
+		<div class="row">
+			<div class="col-xs-6">
 					<p><a href="manga2.html" style="display:block;text-align: right;font-size:1.2em;font-family:Comfortaa">Click here to read...</a></p>
 					<p>Cardcaptor Sakura began as a manga series written and illustrated by the manga artist group Clamp. It was serialized in the monthly shojo (aimed at young girls) manga magazine Nakayoshi from the May 1996 to June 2000 issue.The individual chapters were collected and published in 12 tankobon volumes by Kodansha from November 1996 to July 2000.Kodansha released the first six volumes in bilingual editions that included both Japanese and English from May 2000 to July 2001.The bilingual volumes were part of an experimental line for helping Japanese children learn English. Kodansha stopped releasing the bilingual editions after the series was licensed in English for distribution in North America by Tokyopop.</p>
 					<p>Tokyopop released the volumes of Cardcaptor Sakura from March 2000 to August 2003.Tokyopop initially released the first six volumes with the book "flipped" from the original Japanese orientation, in which the book is read from right-to-left, to the Western format with text oriented from left-to-right. These volumes were later re-released with the original orientation in two box sets, each containing three volumes.Volumes seven through twelve were released in the original orientation with the subtitle Master of the Clow. Madman Entertainment used Tokyopop's English translation to release the series in Australia and New Zealand.Dark Horse Manga published an English edition of the series in four omnibus volumes containing three of the original volumes each from October 2010 and September 2012.The manga series is licensed for additional regional language releases by Pika Edition in France,Star Comics in Italy,Egmont Manga and Anime in Germany,Editora JBC in Brazil,Ever Glory Publishing in Taiwan,Ediciones Glenat in Spain,Editorial Ivrea in Argentina,and Editorial Toukan in Mexico.</p>
 				</div>
-			</div>
-			<div id="tv">
+				<div class="col-xs-6">
 				<img 
 					src="img/2.jpg"
 					alt="Carcaptor Sakura"
 					title="Anime"
 					/>
 			</div>
+			
+			</div>
+		</div>
 			<nav class="bottom-nav">
-				<a href = "home.html">
+				<a href = "ccs.html">
 					HOME
 				</a>
 			</nav>

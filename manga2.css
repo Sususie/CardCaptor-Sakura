@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);	
+@font-face{font-family:'Comfortaa';src:url(img/Comfortaa-Regular.ttf); font-style:normal; font-weight:normal}
 
 html {
   border-top: 5px solid #fff;
@@ -9,7 +9,6 @@ html {
 html, body {
   margin: 0;
   padding: 0;
-  font-family: 'Open Sans';
 }
 
 h1 {

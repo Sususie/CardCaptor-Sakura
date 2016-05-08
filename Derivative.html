@@ -1,94 +1,115 @@
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="description" content="">
-		<meta name="viewport" content="width=device-width,initial-scale=1">
-		<link rel="stylesheet" href= "mystyle.css">
-		<title>
-			CCS Related Product
-		</title>	
-	</head>
-
-	<body>
-		<div class="page">
-			<div class="logo">
-				<img 
-					src="img/logo.png"
-					alt="Cardcaptor Sakura"
-					title="logo"
-					width="50%" height="23%"
-					/>
-			</div>
-			<div id="tfheader">
-			<form id="tfnewsearch" method="get" action="http://www.google.com">
-			<input type="text" class="tftextinput" name="q" size="21" maxlength="120">
-			<input type="submit" value="search" class="tfbutton">
-			</form>
-		<div class="tfclear"></div>
-		</div>
-			<div class="top-nav">
-				<div class="item item1">
-					<a href="home.html">Home</a>
-				</div>
-				<div class="item item2">
-					<a href="Anime.html">TV Series</a>
-				</div>
-				<div class="item item3">
-					<a href="Movie.html">Movie</a>
-				</div>
-				<div class="item item4">
-					<a href="Manga.html">Manga</a>
-				</div>
-				<div class="item item5">
-					<a href="News.html">Latest News</a>
-				</div>
-				<div class="item item6">
-					<li><a class="active" href="Derivative.html">Related Product</a></li>
-				</div>	
-			</div>	
-			<div class="row" >
-				<div class="col-12">
-				<div class="img">
-		  			<a target="_blank" href="http://www.amazon.com/Bandai-Tamashii-Figuarts-Kinomoto-Cardcaptor/dp/B00OZ5J2LY/ref=sr_1_1?ie=UTF8&qid=1457325919&sr=8-1&keywords=cardcaptor+sakura+figure">
-		   			<img src="img/h1.jpg" width="600" height="400">
-		  			</a>
-		  			<div class="desc">Bandai Tamashii Nations S.H. Figuarts Kinomoto Sakura "Cardcaptor Sakura" Action Figure</div>
-				</div>
-
-				<div class="img">
-		  			<a target="_blank" href="http://www.amazon.com/Max-Factory-Cardcaptor-Sakura-Kinomoto/dp/B00PBJ33PY/ref=sr_1_4?ie=UTF8&qid=1457327671&sr=8-4&keywords=cardcaptor+sakura+figure">
-		    		<img src="img/h2.jpg" width="600" height="400">
-		  			</a>
-		  			<div class="desc">Max Factory Cardcaptor Sakura: Sakura Kinomoto Figma Figure</div>
-				</div>
-
-				<div class="img">
-		 			<a target="_blank" href="http://www.amazon.com/Bandai-Tamashii-S-H-Figuarts-Kinomoto-Cardcaptor/dp/B00YDYWKFM/ref=sr_1_6?ie=UTF8&qid=1457327671&sr=8-6&keywords=cardcaptor+sakura+figure">
-		    			<img src="img/h3.jpg" width="600" height="400">
-		  			</a>
-		  			<div class="desc">Bandai Tamashii Nations S.H.Figuarts Sakura Kinomoto "Cardcaptor Sakura" Action Figure</div>
-				</div>
-
-				<div class="img">
-		  			<a target="_blank" href="http://www.amazon.com/Good-Smile-Cardcaptor-Sakura-Nendoroid/dp/B00JWEZUC8/ref=sr_1_14?ie=UTF8&qid=1457327671&sr=8-14&keywords=cardcaptor+sakura+figure">
-		   				<img src="img/h4.jpg" width="600" height="400">
-		  			</a>
-		  			<div class="desc">Good Smile Cardcaptor Sakura: Sakura Kinomoto Nendoroid Action Figure</div>
-				</div>
-				<div class="img">
-		  			<a target="_blank" href="http://www.amazon.com/Furyu-6-7-Cardcaptor-Sakura-Kinomoto/dp/B0105MRST8/ref=sr_1_7?ie=UTF8&qid=1457325919&sr=8-7&keywords=cardcaptor+sakura+figure">
-		   				<img src="img/h5.jpg" width="600" height="400">
-		  			</a>
-		  			<div class="desc">Furyu 6.7" Cardcaptor Sakura: Sakura Kinomoto Special Figure Series "Cheerful Pink"</div>
-				</div>
-			</div>
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" href="stylesheets/styles.css">
+	<link rel="stylesheet" href="stylesheets/custom.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  	<script src="http://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js?v=2.1.9"></script>
+  	<script type="text/javascript" src="javascripts/jquery.popImage.mini.js"></script>
+  
+	<title>
+		Cardcaptor Sakura
+	</title>	
+</head>
+<body>
+	<div class="page">	
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container-fluid">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a class="navbar-brand" href="#">CardCaptor Sakura</a>
+		    </div>
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav">
+	        <li><a href="CCS.html">Home</a></li>
+	        <li><a href="tv.html">TV Series</a></li>
+	        <li><a href="movie.html">Movie</a></li>
+	        <li><a href="manga.html">Manga</a></li>
+	        <li><a href="news.html">News</a></li>
+	        <li class="active">
+	          <a href="derivative.html">Derivative Works<span class="sr-only">(current)</span></a>
+	        </li>
+	    </ul>
+	    	<form class="navbar-form navbar-left" role="search">
+	        <div class="form-group">
+	          <input type="text" class="form-control" placeholder="Search">
+	        </div>
+	        <button type="submit" class="btn btn-default">Submit</button>
+	      	</form>
 		</div>
 	</div>
-		<nav class="bottom-nav">
-			<a href = "home.html">
-				HOME
-			</a>
-		</nav>
-		</div>
-	</body>
+	</nav>
+	<br><br><br>
+				<div class="controls">
+	  
+	  
+	  <button class="filter" data-filter="all">All</button>
+	  <button class="filter" data-filter=".category-1">Cosplay</button>
+	  <button class="filter" data-filter=".category-2">Drawings</button>
+	  <button class="filter" data-filter=".category-3">Related Products</button>
+
+	</div>
+	<div class = "thumbs">
+	<div id="Container" class="container">
+	<section id="photos">
+		<a href="img/h1.jpg" rel="gallery" class="image_gall"><img src="img/h1.jpg" class="mix category-3"></a>
+		<a href="img/h2.jpg" rel="gallery" class="image_gall"><img src="img/h2.jpg" class="mix category-2"></a>
+		<a href="img/h3.jpg" rel="gallery" class="image_gall"><img src="img/h3.jpg" class="mix category-2"></a>
+		<a href="img/h4.jpg" rel="gallery" class="image_gall"><img src="img/h4.jpg" class="mix category-3"></a>
+		<a href="img/h5.jpg" rel="gallery" class="image_gall"><img src="img/h5.jpg" class="mix category-1"></a>
+		<a href="img/1.jpg" rel="gallery" class="image_gall"><img src="img/1.jpg" class="mix category-1"></a>
+		<a href="img/2.jpg" rel="gallery" class="image_gall"><img src="img/2.jpg" class="mix category-2"></a>
+		<a href="img/6.jpg" rel="gallery" class="image_gall"><img src="img/6.jpg" class="mix category-2"></a>
+		<a href="img/logo.png" rel="gallery" class="image_gall"><img src="img/logo.png" class="mix category-1"></a>
+		
+	</section>
+	</div>
+	<nav class="bottom-nav">
+				<a href = "ccs.html">
+					HOME
+				</a>
+			</nav>
+</div>
+
+	<script>
+		$(document).ready(function() {
+		function getRandomSize(min, max) {
+		  return Math.round(Math.random() * (max - min) + min);
+		}
+		  for (var i = 0; i < 25; i++) {
+		    var width = getRandomSize(200, 400);
+		    var height =  getRandomSize(200, 400);
+		    
+		  }
+		});
+
+		$(function(){
+		  $('#Container').mixItUp();
+		});
+
+		function erase(obj){
+        obj.style.display="none";
+    }
+
+    $(function(){
+	$("a.image_gall").popImage();
+	$("#link_group a").popImage({"tagName":"rel"});
+	$("#input_group input").popImage({"tagName":"title"});
+	$("#image").popImage({"tagName":"title"});
+});
+
+	</script>
+</body>
+
 </html>
+
